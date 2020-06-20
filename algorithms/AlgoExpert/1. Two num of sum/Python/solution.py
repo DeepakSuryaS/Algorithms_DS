@@ -13,7 +13,7 @@ def twoNumberSum(array, targetNum):
 def main():
   array = [3, 5, -4, 8, 11, 1, -1, 6]
   targetNum = 10
-  print("Two numbers that add up to the target number are: ", twoNumberSum(array, targetNum))
+  print("Answer: ", twoNumberSum(array, targetNum))
 
 if __name__ == "__main__":
   main()

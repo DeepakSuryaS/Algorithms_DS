@@ -4,6 +4,10 @@
   # Because, we will traverse the array only once and we will have only one hashtable.
   # For better understanding, check time and space complexity for hashtables.
 
+# Working
+# y = target - x, where x is the current element
+# If y is present in the hashtable, then solution is (x, y)
+
 def twoNumberSum(array, targetNum):
   nums = {}
   for num in array:
@@ -18,7 +22,7 @@ def twoNumberSum(array, targetNum):
 def main():
   array = [3, 5, -4, 8, 11, 1, -1, 6]
   targetNum = 10
-  print("Two numbers that add up to the target number are: ", twoNumberSum(array, targetNum))
+  print("Answer: ", twoNumberSum(array, targetNum))
 
 if __name__ == "__main__":
   main()
